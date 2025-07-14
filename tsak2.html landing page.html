@@ -1,0 +1,113 @@
+#HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Komal task1 level2 Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>CodSoft Internship</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">resources</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="myself">
+      <h2>Greetings and welcome to this site</h2>
+      <p>Discover all essential knowlege for your carrer</p>
+      <a href="#" class="cta-button">Get Started</a>
+    </section>
+
+    <footer>
+      <p>
+        &copy; Komal kumar this is our company all Ok.<br />
+        Owner- Komal <br />
+        Web Development Internship (Level 2:- Task 1)
+      </p>
+    </footer>
+  </body>
+</html>
+
+#CSS CODE
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Mysel fsection styles */
+.myself{
+  background-image: url("your-image.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 140px 0;
+  color: #fff;
+}
+
+.myself h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.myself p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
